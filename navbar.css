@@ -1,0 +1,21 @@
+nav{
+    display: flex;
+    justify-content: center;
+}
+
+nav #sidebar{
+    background-color: gray;
+    display: flex;
+    flex-basis: 65%;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+}
+
+#inner-sidebar img{
+    max-height: 40px;
+}
