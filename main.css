@@ -39,4 +39,10 @@ body{
 
 .inner-main-image{
     flex-basis: 65%;
+    display: flex;
+}
+
+.inner-main-image img{
+    max-width: 100%;
+    margin-bottom: 30px;
 }

@@ -1,0 +1,23 @@
+.newspaper-body{
+    display: flex;
+    justify-content: center;
+}
+
+.inner-newspaper-body{
+    flex-basis: 65%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-article{
+    flex-basis: 80%;
+}
+
+.main-article h3{
+    font-size: 30px;
+}
+
+.newsletter-subscribe{
+    flex-basis: 20%;
+}
+
