@@ -72,3 +72,42 @@
 .epigraph{
     margin: 20px 0;
 }
+
+.main-article #footer-gif{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#sign-up{
+    display: flex;
+    flex-direction: column;
+}
+
+#sign-up h4{
+    font-size: 16px;
+}
+
+#sign-up input[type="email"]{
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+#sign-up input[type="submit"]{
+    width: 15%;
+    background-color: #66CD00;
+    border: 1px solid green;
+    color: white;
+    padding: 5px;
+    margin-bottom: 60px
+}
+
+#related-topics p{
+    font-size: 13px;
+    font-weight: 700;
+    color: grey;
+}
+
+#related-topics p b{
+    color: black;
+}
