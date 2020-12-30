@@ -25,14 +25,39 @@
     font-weight: bold;
 }
 
-#twitter-logo li{
+#twitter-logo li, 
+#facebook-logo li, 
+#linkedin-logo li,
+#reddit-logo li,
+#email-logo li{
     display: flex;
 }
 
 #twitter-logo:hover{
+    background-color: rgb(105, 179, 204);
+}
+
+#facebook-logo:hover{
+    background-color: rgb(103, 103, 247);
+}
+
+#linkedin-logo:hover{
+    background-color: rgb(41, 41, 211);
+}
+
+#reddit-logo:hover{
+    background-color: orangered;
+}
+
+#email-logo:hover{
     background-color: lightblue;
 }
 
-#twitter-logo:hover li p{
+#twitter-logo:hover li p,
+#facebook-logo:hover li p,
+#linkedin-logo:hover li p,
+#reddit-logo:hover li p,
+#email-logo:hover li p{
     display: flex;
+    padding-left: 5px;
 }
