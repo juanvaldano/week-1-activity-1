@@ -8,7 +8,7 @@
     justify-content: space-between;
 }
 
-#animated-social-media ul li{
+#animated-social-media ul a{
     display: flex;
     background-color: #66CD00;
     padding: 5px;
@@ -17,4 +17,22 @@
     height: 25px;
     justify-content: center;
     align-items: center;
+}
+
+#animated-social-media p{
+    display: none;
+    color: white;
+    font-weight: bold;
+}
+
+#twitter-logo li{
+    display: flex;
+}
+
+#twitter-logo:hover{
+    background-color: lightblue;
+}
+
+#twitter-logo:hover li p{
+    display: flex;
 }
