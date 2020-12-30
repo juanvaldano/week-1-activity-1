@@ -25,7 +25,6 @@ nav ul{
 
 #topics li{
     margin: 7px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bold;
     font-size: 14px;
 }
@@ -41,6 +40,10 @@ nav ul{
 .highlight{
     background-color: black;
     padding: 5px;
+}
+
+.highlight:hover{
+    background-color: #66CD00;
 }
 
 .highlight a span{

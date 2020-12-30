@@ -1,0 +1,23 @@
+#author-information{
+    display: flex;
+    justify-content: center;
+}
+
+#inner-author-information{
+    flex-basis: 65%;
+    display: flex;
+}
+
+#inner-author-information img{
+    max-height: 40px;
+    margin-right: 10px;
+}
+
+#inner-author-information small{
+    color: grey;
+}
+
+#inner-author-information small span{
+    color: black;
+    font-weight: bold;
+}
