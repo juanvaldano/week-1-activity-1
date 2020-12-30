@@ -31,3 +31,12 @@ body{
 .inner-enlarge a{
     color: #66CD00;
 }
+
+.main-image{
+    display: flex;
+    justify-content: center;
+}
+
+.inner-main-image{
+    flex-basis: 65%;
+}
