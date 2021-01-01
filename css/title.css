@@ -1,0 +1,14 @@
+#article-title{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 10px 0;
+}
+
+#inner-article-title{
+    flex-basis: 65%;
+    flex-wrap: wrap;
+}
+
+#inner-article-title h1{
+    font-size: 50px;
+}

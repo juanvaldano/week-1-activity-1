@@ -1,0 +1,51 @@
+nav{
+    display: flex;
+    justify-content: center;
+}
+
+nav #sidebar{
+    display: flex;
+    flex-basis: 65%;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+}
+
+#inner-sidebar img, #search img{
+    max-height: 20px;
+}
+
+#topics ul{
+    align-items: center;
+}
+
+#topics li{
+    margin: 7px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#topics li:hover{
+    border-bottom: 5px solid #66CD00;
+}
+
+#topics li a{
+    color: black;
+}
+
+.highlight{
+    background-color: black;
+    padding: 5px;
+}
+
+.highlight:hover{
+    background-color: #66CD00;
+}
+
+.highlight a span{
+    color: white;
+}
